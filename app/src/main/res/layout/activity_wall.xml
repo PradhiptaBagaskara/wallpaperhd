@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wallActivity">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.00"
+        android:background="#ffffff"
+        android:scrollbars="horizontal" />
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20.0dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <Button android:layout_gravity="start"
+            android:id="@+id/btn_previous"
+            android:background="@drawable/wall_previous_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30.0dip" />
+
+        <Button android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_OK"
+            android:background="@drawable/wall_ok_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button android:layout_gravity="end"
+            android:id="@+id/btn_next"
+            android:background="@drawable/wall_next_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip" />
+    </LinearLayout>
+</RelativeLayout>

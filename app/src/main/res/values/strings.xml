@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">wallpaper sembarang</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intt">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="title_activity_wallpaper">wallpaper</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

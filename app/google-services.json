@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "357222911659",
+    "firebase_url": "https://wallpaperhd-68d42.firebaseio.com",
+    "project_id": "wallpaperhd-68d42",
+    "storage_bucket": "wallpaperhd-68d42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357222911659:android:bd3ce2a3b31a7e1a",
+        "android_client_info": {
+          "package_name": "com.masbon.wallpaperhd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357222911659-s3dnabt4nihtb05h6oqr58agun7421e7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.masbon.wallpaperhd",
+            "certificate_hash": "8e8d4dee842d0c2a9acadc6b6abed5bc0f29348d"
+          }
+        },
+        {
+          "client_id": "357222911659-1nado99ulgla4npoffqsq6rcriabh2sm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "357222911659-1nado99ulgla4npoffqsq6rcriabh2sm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC4UXjYJiOkCz3Ai0gLKVxI5x6grW07JE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357222911659-1nado99ulgla4npoffqsq6rcriabh2sm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
